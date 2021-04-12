@@ -1,6 +1,6 @@
 # hydrablocks
 
-hydrablocks is a fork of [UtkarshVerma's dwmblocks](https://raw.githubusercontent.com/UtkarshVerma/dwmblocks/).
+hydrablocks is a fork of [UtkarshVerma's dwmblocks](https://github.com/UtkarshVerma/dwmblocks/).
 check their repo for more info.
 
 # installation
