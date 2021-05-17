@@ -3,10 +3,10 @@
 
 static const Block blocks[] = {
 /*  command             interval    signal */
-    {"getscrolltext",   1,          11},
-    {"keeblayout",      0,          8},
-	{"volume",          0,          10},
-	{"blocksbluegui",   0,          15},
-	{"internet",        10,         4},
-	{"clock",           60,         1},
+    {"bar-song", 		1,          11},
+    {"bar-kb",      	0,          8},
+	{"bar-volume",      0,          10},
+	{"bar-bluetooth",   0,          15},
+	{"bar-internet",    10,         4},
+	{"bar-clock",       60,         1},
 };
