@@ -1,5 +1,5 @@
-#define CMDLENGTH 50
-#define delimiter " |"
+#define CMDLENGTH 100
+#define delimiter " | "
 
 static const Block blocks[] = {
 /*  command             interval    signal */

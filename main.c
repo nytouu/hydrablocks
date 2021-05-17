@@ -179,7 +179,7 @@ void buttonHandler(int sig, siginfo_t *si, void *ucontext) {
 
 		if (shCommand) {
 			char *command[] = {"/bin/sh", "-c", shCommand, NULL};
-			setenv("BLOCK_BUTTON", button, 1);
+			setenv("BUTTON", button, 1);
 			setsid();
 			execvp(command[0], command);
 		}
