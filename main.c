@@ -32,7 +32,7 @@ void sleepMillis(unsigned long);
 static Display *dpy;
 static int screen;
 static Window root;
-static char commands[len(blocks)][256];
+static char commands[len(blocks)][128];
 static char statusbar[len(blocks)][CMDLENGTH];
 static char statusStr[2][len(blocks) * CMDLENGTH +
 						 (len(delimiter) - 1) * (len(blocks) - 1) + 1];

@@ -1,14 +1,16 @@
-#define CMDLENGTH 100
+#define CMDLENGTH 128
 #define delimiter " "
 
 static const Block blocks[] = {
 /*  command             interval    signal */
-    {"bar-record",      0,          9},
-    {"bar-song", 		1,          11},
-    {"bar-kb",      	0,          8},
-	{"bar-volume",      0,          10},
-	{"bar-bluetooth",   0,          15},
-	{"bar-internet",    10,         4},
+    /* {"bar-record",      0,          7}, */
+    {"bar-song", 		1,          6},
+    {"bar-kb",      	0,          5},
+	{"bar-volume",      0,          4},
+	{"bar-notif",       0,          3},
+	/* {"bar-bluetooth",   0,          15}, */
+	{"bar-internet",    10,         2},
+	/* {"bar-calendar",    60,         8}, */
 	{"bar-clock",       60,         1},
-    {"bar-power",       0,          26},
+    /* {"bar-power",       0,          26}, */
 };
