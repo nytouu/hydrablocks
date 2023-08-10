@@ -3,7 +3,7 @@
 
 static const Block blocks[] = {
 /*  command             interval    signal */
-    /* {"bar-record",      0,          7}, */
+    {"bar-record",      0,          2},
     {"bar-song", 		1,          6},
     /* {"bar-kb",      	0,          5}, */
 	{"bar-volume",      0,          4},
